@@ -1,0 +1,38 @@
+.navbar {
+    width: auto;
+    height: auto;
+    background-color: #242424;
+  
+  }
+  
+  .navbar a {
+    float: center;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    text-align: center;
+    padding: 0.6em 2em;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    text-align: center;
+    transition: border-color 0.25s;
+  }
+  
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  
+  .active {
+    background-color: #4800FF;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }

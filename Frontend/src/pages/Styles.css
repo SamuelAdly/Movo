@@ -1,0 +1,138 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+  .card {
+    padding: 2em;
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
+  
+  .titleText {
+    color: #4800FF;
+  }
+  
+  .form-label {
+    font-size: 1.2em;
+    margin: 0 0;
+    display: block;
+    text-align: left;
+  }
+
+  @media screen and (min-width: 500px) {
+    .auth-form-container {
+      align-items: center;
+      justify-content: center;
+      margin: 2rem;
+      padding: 5rem;
+      border: 1px solid #4800FF;
+      border-radius: 10px;
+    }
+  }
+  
+  .login-button, .signup-button, .contact-button {
+    display: block;
+    margin: 1em auto;
+    background-color: #4800FF;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 0.6em 1.2em;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    transition: border-color 0.25s;
+    text-decoration: none;
+  }
+
+  .form-input {
+    width: 100%;
+    padding: 0.6em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 1em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    transition: border-color 0.25s;
+  }
+
+  .form-header {
+    margin: 0.5em 0;
+    
+  }
+
+  .contact-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .status-message {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .status-message.success {
+    color: green;
+  }
+  
+  .status-message.error {
+    color: red;
+  }
+  
+  textarea {
+    resize: none;
+  }
